@@ -4,7 +4,7 @@
       <van-search v-model="value" shape="round" placeholder="请输入搜索关键词" />
     </van-row>
     <van-row type="flex" justify="center">
-      <van-image fit="cover" width="1000" height="100" lazy-load src="https://img.yzcdn.cn/vant/cat.jpeg">
+      <van-image fit="cover" height="150" lazy-load src="https://img.yzcdn.cn/vant/cat.jpeg">
         <template v-slot:loading>
           <van-loading type="spinner" size="20" />
         </template>
